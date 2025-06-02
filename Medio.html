@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CENTRO</title>
+  <style>
+    body {
+      background-color: #f0f0f0; /* Fondo gris claro */
+      color: #333; /* Texto gris oscuro */
+      font-family: sans-serif; /* Fuente legible */
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    .imagen-con-boton {
+      display: inline-block;
+      margin: 15px;
+      padding: 10px;
+      border: 1px solid #ccc; /* Borde gris claro alrededor de cada bloque */
+      border-radius: 8px; /* Bordes redondeados para los bloques */
+      background-color: #fff; /* Fondo blanco para los bloques */
+      box-shadow: 2px 2px 5px #888888; /* Sombra suave */
+    }
+    img {
+      width: 150px;
+      height: 148px;
+      display: block; /* Evita espacio extra debajo de la imagen */
+      margin-bottom: 10px;
+      border-radius: 5px; /* Bordes redondeados para las imágenes */
+    }
+    .boton-seccion {
+      display: block;
+      padding: 10px 20px;
+      text-decoration: none;
+      background-color: #333; /* Fondo negro para los botones */
+      color: #fff; /* Texto blanco para los botones */
+      border-radius: 5px;
+      margin-top: 8px;
+      border: none; /* Quitar borde predeterminado del botón */
+      cursor: pointer;
+      font-size: 1em; /* Tamaño de fuente base */
+    }
+    .boton-seccion:hover {
+      background-color: #555; /* Gris más oscuro al pasar el ratón */
+    }
+    h1, h2, h3, h4 {
+      color: #555; /* Títulos en gris */
+    }
+    .boton-compendio {
+      display: inline-block;
+      padding: 10px 20px; /* MismaPadding que .boton-seccion */
+      text-decoration: none;
+      background-color: #333; /* Mismo background-color que .boton-seccion */
+      color: #fff; /* Mismo color que .boton-seccion */
+      border-radius: 5px; /* Mismo border-radius que .boton-seccion */
+      margin-top: 30px;
+      border: none; /* Mismo border que .boton-seccion */
+      cursor: pointer;
+      font-size: 1em; /* Mismo font-size que .boton-seccion */
+      box-shadow: 2px 2px 5px #888888; /* Mismo box-shadow que .imagen-con-boton */
+    }
+    .boton-compendio:hover {
+      background-color: #555; /* Mismo hover que .boton-seccion */
+    }
+  </style>
+</head>
+<body>
+  <h1>CENTRO DE ARTÍCULOS</h1>
+  <p style="color:#777;">Explora nuestras categorías de productos.</p>
+
+  <div class="imagen-con-boton">
+    <img src="telefono.jpg" alt="Teléfono">
+    <a href="seccion_telefonos.html" class="boton-seccion" target="_blank">Teléfonos</a>
+  </div>
+
+  <div class="imagen-con-boton">
+    <img src="pantalon.jpg" alt="Pantalón">
+    <a href="seccion_ropa.html" class="boton-seccion" target="_blank">Ropa</a>
+  </div>
+
+  <div class="imagen-con-boton">
+    <img src="calculadora.jpg" alt="Calculadora">
+    <a href="seccion_papeleria.html" class="boton-seccion" target="_blank">Papelería</a>
+  </div>
+
+  <div class="imagen-con-boton">
+    <img src="licuadora.jpg" alt="Licuadora">
+    <a href="seccion_hogar.html" class="boton-seccion" target="_blank">Hogar</a>
+  </div>
+
+  <h2 style="margin-top: 30px;">Descubre más en cada sección.</h2>
+
+  <a href="compendio-lecturas.pdf" class="boton-compendio" target="_blank">Ir al compendio de lecturas</a>
+
+</body>
+</html>
